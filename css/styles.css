@@ -76,6 +76,7 @@ i {
     min-height: 100vh;
     scroll-margin-top: 80px;
     scroll-snap-align: start;
+    padding: 40px;
 }
 
 /* Welcome section */
@@ -116,7 +117,6 @@ i {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px;
     gap: 40px;
 }
 

@@ -193,7 +193,8 @@ footer {
     background-color: var(--footer-color);
     color: var(--default-font-color);
     scroll-snap-align: start;
-    padding: 0px 40px;
+    margin: 0;
+    padding: 20px 40px;
 }
 
 footer > p {

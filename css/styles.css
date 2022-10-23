@@ -94,8 +94,8 @@ i {
     align-items: center;
     color: rgb(0, 0, 0);
     position: relative;
-    z-index: -1;
-    
+    z-index: -2;
+    overflow: hidden;
 }
 
 #welcome-section > h1 {
@@ -103,16 +103,17 @@ i {
     margin: 0;
 }
 
-#diagonal-effect {
+.diagonal-effect {
     position: absolute;
-    overflow: hidden;
     right: 0px;
-    width: 50vh;
+    width: 60vh;
     height: 100vh;
-    background-image: linear-gradient(45deg, #1F7A8C, #6CD08E);
     transform: skewX(-11deg);
-    
-    z-index: -2;
+    z-index: -1;
+}
+
+#diagonal-effect-one {
+    background-image: linear-gradient(45deg, #1f5d81, #00BAC9);
 }
 
 /* Projects section */
@@ -149,13 +150,15 @@ i {
 /* Contact section */
 
 #links {
-    background-color: var(--section-bg-3);
+    background-image: linear-gradient(45deg, #1f5d81, #00BAC9);
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: left;
-    
+    z-index: -2;
+    overflow: hidden;
 }
 
 #linktext > h2 {
@@ -179,6 +182,9 @@ i {
     color: var(--default-font-color);
 }
 
+#diagonal-effect-two {
+    background-image: linear-gradient(45deg, #1F7A8C, #6CD08E);
+}
 
 
 /* Footer */

@@ -4,7 +4,7 @@
     --section-bg-2: rgb(225, 229, 242);
     --section-bg-3: #5477AB;
     --header-color: #000000;
-    --footer-color: rgb(31, 122, 140);
+    --footer-color: #6CD08E;
     --footer-border: #222222; 
     
     /* Font color */
@@ -74,15 +74,17 @@ i {
 
 .section {
     min-height: 100vh;
+    width: 100%;
     scroll-margin-top: 80px;
     scroll-snap-align: start;
+    box-sizing: border-box;
     padding: 40px;
 }
 
 /* Welcome section */
 
 #welcome-section {
-    background-color: var(--section-bg-1);
+    background-image: linear-gradient(45deg, #1F7A8C, #6CD08E);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,11 +104,12 @@ i {
 #diagonal-effect {
     position: absolute;
     overflow: hidden;
-    left: 1000px;
-    width: 100vw;
+    right: 0px;
+    width: 50vh;
     height: 100vh;
     background-image: linear-gradient(45deg, #1F7A8C, #6CD08E);
     transform: skewX(-11deg);
+    
     z-index: -2;
 }
 
@@ -150,7 +153,6 @@ i {
     justify-content: center;
     align-items: center;
     text-align: left;
-    width: 100%;
     
 }
 
@@ -190,7 +192,6 @@ footer {
     background-color: var(--footer-color);
     color: var(--default-font-color);
     scroll-snap-align: start;
-    padding: 40px;
 }
 
 footer > p {

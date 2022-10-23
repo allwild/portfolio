@@ -182,6 +182,7 @@ i {
 /* Footer */
 
 footer {
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -192,6 +193,7 @@ footer {
     background-color: var(--footer-color);
     color: var(--default-font-color);
     scroll-snap-align: start;
+    padding: 0px 40px;
 }
 
 footer > p {

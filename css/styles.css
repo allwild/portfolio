@@ -58,7 +58,7 @@ i {
 }
 
 #navbar > ul > li> span {
-    margin: 0 10px 0 20px;
+    margin: 0 10px 0 10px;
     font-size: 60px;
     background: -webkit-linear-gradient(180deg, var(--section-bg-1), var(--section-bg-2));
     -webkit-background-clip: text;
